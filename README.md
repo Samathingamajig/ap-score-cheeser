@@ -33,6 +33,12 @@ The code:
   - **GitHub/Manual install** _(not recommended)_: Go to the [raw script page](https://raw.githubusercontent.com/Samathingamajig/ap-score-cheeser/main/ap-score-cheeser.user.js). Tampermonkey will automatically detect this file as a userscript (since the file is named `*.user.js`), so click the "Install" button to install it. If it doesn't, copy the entire contents of the script into the Tampermonkey script editor (**make sure you save**).
   - If none of these work, look up how to install a Tampermonkey userscript.
 
+## 🎉 Notice when using with AP® Score Hider
+
+I've made another project recently called AP® Score Hider (https://github.com/Samathingamajig/ap-score-hider) which hides your scores until you click on them, blasts confetti for passing scores, and plays (optional) customizable sound effects based on the score. If you're using both at the same time, there's one issue currently that I've found that's not easily fixable:
+
+- Wait a few seconds after the page becomes visible again to guarantee scores change. If you reveal a score too quickly, it might not have changed yet.
+
 ## 🚫 Uninstallation
 
 If you don't want to use this script anymore, you can uninstall it anytime.
